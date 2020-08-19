@@ -30,3 +30,13 @@ ES6
     箭头函数内没有this，他的this指向上一层
     箭头函数没有argument
     不能作为构造函数
+
+    5.find 方法
+      遍历数组，拿到第一个符合条件的值，并返回该值
+      .find((item, index, arr) => {
+        item 当前的值
+        index 当前的位置
+        arr   代表数组
+      }
+
+      .findIndex((item, index))
