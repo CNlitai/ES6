@@ -6,3 +6,6 @@ map.set('age', '12')
 console.log(map)
 
 console.log(map.has('ag'))
+
+map.delete('name')
+console.log(map)
