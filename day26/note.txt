@@ -1,0 +1,17 @@
+1.箭头函数   
+  内部没有this   this指向上一层
+  不能用于构造函数
+  ()=>{
+
+  }
+
+
+2.数组的扩展
+  Array.from  
+    把类数组对象或者可迭代对象转化成数组
+
+
+Promise    ，
+  构造函数 解决异步 优化异步
+  
+   let promise = new Promise((resolve, reject) =>)
