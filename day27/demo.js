@@ -11,5 +11,5 @@
 var i=100
 i++;
 var j=i++;
-var y =++j;
+var y=++j;
 console.log(y,j)
